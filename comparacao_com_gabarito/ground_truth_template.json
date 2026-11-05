@@ -1,0 +1,1717 @@
+{
+  "schema_version": "1.1",
+  "generated_by": "SMALIRIS Comparison Tool 1.0.1",
+  "instructions": "Preencha expected somente com true ou false após revisão independente. Valores null são ignorados nas métricas. O MobSF não deve ser usado como gabarito.",
+  "apps": [
+    {
+      "sha256": "0150f08387032ed3d5a5952dbe13646bff2878f01c2c9267e6dc32ecb8747003",
+      "file_name": "ch.blinkenlights.android.vanilla_13200.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "0eecec45de0da3ff1358004b51e2960d9178551643a6ed44f6496ea9ec999c19",
+      "file_name": "com.beemdevelopment.aegis_82.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "2642613868a8a80f0ce963a4863bc153e7281b97b3bbdf36ca92a99dded7134a",
+      "file_name": "com.darkempire78.opencalculator_53.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "0aa5eb094f94ca29ab7956d75b9e5d7c19785ebdac74b9ae512930084338bf3c",
+      "file_name": "com.nononsenseapps.feeder_4113.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "3cb274f869f777c8b420fd55a822eca72e11e22906161b07accd19b5c8be7b36",
+      "file_name": "de.baumann.browser_159.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "3f43a4337a693cdb49141afe06cb596e88c796009ed77bff51e9444ce2d1ebfc",
+      "file_name": "de.danoeh.antennapod_3120295.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "2fe900bf43d725b655008d438f5ca46d0da0f301e3784403b5b96c3fc2df6e8a",
+      "file_name": "me.zhanghai.android.files_40.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "3f9f260dc3e32a1281cb8803eea6f926eef897579f68a5d35f922523974b84b9",
+      "file_name": "net.gsantner.markor_163.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "3d8d150d66a7b49788143104a7280c74a8ae0428e815e1234a38aa318c6b45a6",
+      "file_name": "org.fdroid.basic_2000050.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "89a783890d8d26caaed18cae017fc348a18ac87c72cca16719597b02eac8cf7c",
+      "file_name": "org.moire.opensudoku_20260920.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "d6792d6634a033f048f935f1269179d3c27b859c4c34b1e9e5b008a88375efd9",
+      "file_name": "allsafe.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "3e6f6b538b82874dd94c0d8cdadd69ba54d49b59d2c7eb055073892e8a4fc0e0",
+      "file_name": "AndroGoat.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "fbd9ab802d418cc3fbfd89b3cea1c9c4d3cbe20f5f19db79979cbc73ad845516",
+      "file_name": "DVACv1.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "76c308fac6a655a3534771777780e004feb1d91be032857768c891b2baf40ba6",
+      "file_name": "dvba_v1.1.0.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "b6b8d2dbd7a428b7754e6e537ba5790c35a73253533454e0768dbf1520a7ed15",
+      "file_name": "InjuredAndroid-1.0.12-release.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "21d91e09112a0195ef52958bdad2b94d0c93c2c8b4d63abff2d64ec7d9590e71",
+      "file_name": "InsecureBankv2.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "a83298ae4a37fcab8101e8b41e513dd2199af71a94ea537d556a318e07d4d1bd",
+      "file_name": "InsecureShop.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "fce864e59f05eb64e3d668783b757d66d4fe5022c8811a32af0b33e7d2f3cde5",
+      "file_name": "MSTG-Android-Java.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "86c059775aa09e4794defd40f81e69751a81019b1b1f285b30b8f7c5bb5e8b68",
+      "file_name": "MSTG-Android-Kotlin.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "31878e33c526f9747c9b7ff38954bfcb2acc2a947ce7103589438e034637a6b7",
+      "file_name": "sieve.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "2b226f745d8174271c1e8c7d93ea29fc66f311b787286990ea8a7f1ceaf1bdc0",
+      "file_name": "ActivityCommunication2.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "315b5a9bec75394d9350dd8f05a26750b3363e50bf8c16b0bcbc0f752d39155c",
+      "file_name": "ActivityCommunication5.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "6e2c6bacad33aa2254a0728bdc540a15025a732f4255450c4e333b34626deafc",
+      "file_name": "ArrayAccess1.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "70ba8c61b07bb376f37a6555b1615f2a5a370f8eae9ac01cae14340773b9bfc9",
+      "file_name": "ArrayAccess3.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "3c31c21ff15a3b1eec0c19f4f5676589002f3af2c3023821a98f84b3ceb8852e",
+      "file_name": "BroadcastTaintAndLeak1.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "30707cf3cf5d61d33071413a18921ca6459358413111dffa8949daf80ac5ac77",
+      "file_name": "ComponentNotInManifest1.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "6439cb5617499ffc493fbbafe85826f9f89dddbcfbc28dd538b9d227bec4aacc",
+      "file_name": "FieldSensitivity1.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "ab066ca777d1e9246a733680e94195850710401a1f5c0f6d1a5b78c31f7b3564",
+      "file_name": "FieldSensitivity3.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "2a0b5f0f854aa81e533e825cf63ebc4bc37e3b0e55d9df2db3e914f0aecb5cf9",
+      "file_name": "ServiceCommunication1.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "sha256": "58acc608ead125dd3285b4f172db50f497040a171397e296c34f161bd1fec4e7",
+      "file_name": "Unregister1.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_SERVICE": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        },
+        "COMMAND_EXECUTION": {
+          "expected": null,
+          "evidence_source": "",
+          "notes": ""
+        }
+      }
+    }
+  ]
+}

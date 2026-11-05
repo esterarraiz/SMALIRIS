@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://smaliris.local/schemas/analysis-report-2.0.json",
+  "title": "SMALIRIS Analysis Report",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "report_schema",
+    "tool",
+    "reproducibility",
+    "apk_path",
+    "manifest_path",
+    "package",
+    "sdk",
+    "application",
+    "components",
+    "findings",
+    "summary",
+    "api_catalog",
+    "code_analysis_summary",
+    "data_flow_analysis",
+    "risk_analysis",
+    "reports"
+  ],
+  "properties": {
+    "schema_version": {"const": "2.0"},
+    "report_schema": {
+      "type": "object",
+      "required": ["name", "version", "file"],
+      "properties": {
+        "name": {"const": "smaliris-analysis-report"},
+        "version": {"const": "2.0"},
+        "file": {"type": "string"}
+      }
+    },
+    "tool": {
+      "type": "object",
+      "required": ["name", "version", "full_name"],
+      "properties": {
+        "name": {"const": "SMALIRIS"},
+        "version": {"type": "string"},
+        "full_name": {"type": "string"}
+      }
+    },
+    "reproducibility": {
+      "type": "object",
+      "required": [
+        "tool_version",
+        "catalog_version",
+        "report_schema_version",
+        "apk_sha256",
+        "max_call_depth",
+        "apktool_version",
+        "decompilation_duration_seconds",
+        "analysis_duration_seconds",
+        "truncated_call_count",
+        "configuration"
+      ],
+      "properties": {
+        "tool_version": {"type": "string"},
+        "catalog_version": {"type": ["string", "null"]},
+        "report_schema_version": {"type": "string"},
+        "apk_sha256": {
+          "type": ["string", "null"],
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "max_call_depth": {"type": "integer", "minimum": 0},
+        "apktool_version": {"type": ["string", "null"]},
+        "decompilation_duration_seconds": {"type": "number", "minimum": 0},
+        "analysis_duration_seconds": {"type": "number", "minimum": 0},
+        "truncated_call_count": {"type": "integer", "minimum": 0},
+        "configuration": {"type": "object"}
+      }
+    },
+    "apk_path": {"type": "string"},
+    "manifest_path": {"type": "string"},
+    "package": {"type": ["string", "null"]},
+    "sdk": {"type": "object"},
+    "application": {"type": "object"},
+    "components": {"type": "array", "items": {"type": "object"}},
+    "findings": {"type": "array", "items": {"type": "object"}},
+    "summary": {"type": "object"},
+    "api_catalog": {"type": "object"},
+    "code_analysis_summary": {"type": "object"},
+    "data_flow_analysis": {
+      "type": "object",
+      "required": ["ipc_transition_count", "ipc_transitions"],
+      "properties": {
+        "ipc_transition_count": {"type": "integer", "minimum": 0},
+        "ipc_transitions": {"type": "array", "items": {"type": "object"}}
+      }
+    },
+    "risk_analysis": {"type": "object"},
+    "reports": {
+      "type": "object",
+      "required": ["json", "html"],
+      "properties": {
+        "json": {"type": "string"},
+        "html": {"type": "string"}
+      }
+    }
+  }
+}

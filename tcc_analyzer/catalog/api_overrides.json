@@ -1,0 +1,6 @@
+{
+  "schema_version": "1.0",
+  "description": "Sobrescritas locais. Regras com o mesmo id substituem as regras do catálogo principal.",
+  "disabled_rule_ids": [],
+  "rules": []
+}

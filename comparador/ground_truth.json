@@ -1,0 +1,1807 @@
+{
+  "schema_version": "1.2",
+  "generated_by": "Independent corpus review for SMALIRIS v1.0.0",
+  "instructions": "Gabarito independente. Use expected=true/false como classe real e pareie exclusivamente por SHA-256. Não use a saída do MobSF ou da SMALIRIS como verdade.",
+  "apps": [
+    {
+      "sha256": "0150f08387032ed3d5a5952dbe13646bff2878f01c2c9267e6dc32ecb8747003",
+      "file_name": "ch.blinkenlights.android.vanilla_13200.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/ch.blinkenlights.android.vanilla_13200/AndroidManifest.xml",
+          "notes": "android:debuggable=não declarado; padrão false"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/ch.blinkenlights.android.vanilla_13200/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['ch.blinkenlights.android.vanilla.AudioPickerActivity', 'ch.blinkenlights.android.vanilla.AudioSearchActivity', 'ch.blinkenlights.android.vanilla.LibraryActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/ch.blinkenlights.android.vanilla_13200/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['ch.blinkenlights.android.vanilla.PlaybackService', 'ch.blinkenlights.android.vanilla.ScheduledLibraryUpdate']"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/ch.blinkenlights.android.vanilla_13200/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['ch.blinkenlights.android.vanilla.MediaButtonReceiver']"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/ch.blinkenlights.android.vanilla_13200/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/ch.blinkenlights.android.vanilla_13200/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/ch.blinkenlights.android.vanilla_13200/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=34"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/ch.blinkenlights.android.vanilla_13200",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/ch.blinkenlights.android.vanilla_13200",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/ch.blinkenlights.android.vanilla_13200",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        }
+      }
+    },
+    {
+      "sha256": "0eecec45de0da3ff1358004b51e2960d9178551643a6ed44f6496ea9ec999c19",
+      "file_name": "com.beemdevelopment.aegis_82.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/com.beemdevelopment.aegis_82/AndroidManifest.xml",
+          "notes": "android:debuggable=não declarado; padrão false"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/com.beemdevelopment.aegis_82/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['com.beemdevelopment.aegis.ui.MainActivity', 'com.beemdevelopment.aegis.ui.PanicResponderActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/com.beemdevelopment.aegis_82/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['com.beemdevelopment.aegis.services.LaunchAppTileService', 'com.beemdevelopment.aegis.services.LaunchScannerTileService']"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/com.beemdevelopment.aegis_82/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['androidx.profileinstaller.ProfileInstallReceiver']"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/com.beemdevelopment.aegis_82/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/com.beemdevelopment.aegis_82/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/com.beemdevelopment.aegis_82/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=36"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/com.beemdevelopment.aegis_82",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/com.beemdevelopment.aegis_82",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/com.beemdevelopment.aegis_82",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        }
+      }
+    },
+    {
+      "sha256": "2642613868a8a80f0ce963a4863bc153e7281b97b3bbdf36ca92a99dded7134a",
+      "file_name": "com.darkempire78.opencalculator_53.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/com.darkempire78.opencalculator_53/AndroidManifest.xml",
+          "notes": "android:debuggable=não declarado; padrão false"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/com.darkempire78.opencalculator_53/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['com.darkempire78.opencalculator.activities.MainActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/com.darkempire78.opencalculator_53/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['com.darkempire78.opencalculator.services.MyTileService']"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/com.darkempire78.opencalculator_53/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['androidx.profileinstaller.ProfileInstallReceiver']"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/com.darkempire78.opencalculator_53/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/com.darkempire78.opencalculator_53/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/com.darkempire78.opencalculator_53/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=34"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/com.darkempire78.opencalculator_53",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/com.darkempire78.opencalculator_53",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/com.darkempire78.opencalculator_53",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        }
+      }
+    },
+    {
+      "sha256": "0aa5eb094f94ca29ab7956d75b9e5d7c19785ebdac74b9ae512930084338bf3c",
+      "file_name": "com.nononsenseapps.feeder_4113.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/com.nononsenseapps.feeder_4113/AndroidManifest.xml",
+          "notes": "android:debuggable=não declarado; padrão false"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/com.nononsenseapps.feeder_4113/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['androidx.compose.ui.tooling.PreviewActivity', 'com.nononsenseapps.feeder.ui.AddFeedFromShareActivity', 'com.nononsenseapps.feeder.ui.ImportOPMLFileActivity', 'com.nononsenseapps.feeder.ui.MainActivity', 'com.nononsenseapps.feeder.ui.ManageSettingsActivity', 'com.nononsenseapps.feeder.ui.OpenLinkInDefaultActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/com.nononsenseapps.feeder_4113/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['androidx.glance.appwidget.GlanceRemoteViewsService', 'androidx.work.impl.background.systemjob.SystemJobService']"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/com.nononsenseapps.feeder_4113/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['androidx.profileinstaller.ProfileInstallReceiver', 'androidx.work.impl.diagnostics.DiagnosticsReceiver', 'com.nononsenseapps.feeder.widget.FeedWidgetReceiver']"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/com.nononsenseapps.feeder_4113/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['com.nononsenseapps.feeder.contentprovider.RSSContentProvider']"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/com.nononsenseapps.feeder_4113/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/com.nononsenseapps.feeder_4113/AndroidManifest.xml",
+          "notes": "android:usesCleartextTraffic declarado no AndroidManifest.xml"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/com.nononsenseapps.feeder_4113",
+          "notes": "The exported RSSContentProvider ignores caller selection arguments and delegates fixed queries to Room DAO methods."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/com.nononsenseapps.feeder_4113",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/com.nononsenseapps.feeder_4113",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        }
+      }
+    },
+    {
+      "sha256": "3cb274f869f777c8b420fd55a822eca72e11e22906161b07accd19b5c8be7b36",
+      "file_name": "de.baumann.browser_159.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/de.baumann.browser_159/AndroidManifest.xml",
+          "notes": "android:debuggable=não declarado; padrão false"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/de.baumann.browser_159/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['de.baumann.browser.activity.ActivityCustomSearches', 'de.baumann.browser.activity.ActivityShare', 'de.baumann.browser.activity.BrowserActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/de.baumann.browser_159/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/de.baumann.browser_159/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['androidx.profileinstaller.ProfileInstallReceiver']"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/de.baumann.browser_159/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/de.baumann.browser_159/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/de.baumann.browser_159/AndroidManifest.xml",
+          "notes": "android:usesCleartextTraffic declarado no AndroidManifest.xml"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/de.baumann.browser_159",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/de.baumann.browser_159/smali/de/baumann/browser/view/NinjaWebView.smali",
+          "notes": "An exported browser entry accepts external Intent data/text and the resulting URL reaches WebView.loadUrl."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/de.baumann.browser_159",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        }
+      }
+    },
+    {
+      "sha256": "3f43a4337a693cdb49141afe06cb596e88c796009ed77bff51e9444ce2d1ebfc",
+      "file_name": "de.danoeh.antennapod_3120295.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/de.danoeh.antennapod_3120295/AndroidManifest.xml",
+          "notes": "android:debuggable=não declarado; padrão false"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/de.danoeh.antennapod_3120295/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['de.danoeh.antennapod.activity.MainActivity', 'de.danoeh.antennapod.activity.OpmlImportActivity', 'de.danoeh.antennapod.activity.SelectSubscriptionActivity', 'de.danoeh.antennapod.activity.SplashActivity', 'de.danoeh.antennapod.ui.screen.onlinefeedview.OnlineFeedViewActivity', 'de.danoeh.antennapod.ui.screen.playback.video.Media3VideoPlayerActivity', 'de.danoeh.antennapod.ui.widget.WidgetConfigActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/de.danoeh.antennapod_3120295/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['androidx.work.impl.background.systemjob.SystemJobService', 'de.danoeh.antennapod.playback.service.Media3PlaybackService', 'de.danoeh.antennapod.playback.service.PlaybackService', 'de.danoeh.antennapod.playback.service.QuickSettingsTileService']"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/de.danoeh.antennapod_3120295/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['androidx.media3.session.MediaButtonReceiver', 'androidx.profileinstaller.ProfileInstallReceiver', 'androidx.work.impl.diagnostics.DiagnosticsReceiver', 'de.danoeh.antennapod.net.download.service.ConnectivityActionReceiver', 'de.danoeh.antennapod.net.download.service.PowerConnectionReceiver', 'de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver', 'de.danoeh.antennapod.playback.service.MediaButtonReceiver', 'de.danoeh.antennapod.ui.widget.PlayerWidget']"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/de.danoeh.antennapod_3120295/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/de.danoeh.antennapod_3120295/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/de.danoeh.antennapod_3120295/res/xml/network_security_config.xml",
+          "notes": "decompiled/fdroid/de.danoeh.antennapod_3120295/res/xml/network_security_config.xml contém cleartextTrafficPermitted=true"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/de.danoeh.antennapod_3120295",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/de.danoeh.antennapod_3120295",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/de.danoeh.antennapod_3120295",
+          "notes": "The bug-report command is fixed and is not controlled by an exposed Android input."
+        }
+      }
+    },
+    {
+      "sha256": "2fe900bf43d725b655008d438f5ca46d0da0f301e3784403b5b96c3fc2df6e8a",
+      "file_name": "me.zhanghai.android.files_40.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/me.zhanghai.android.files_40/AndroidManifest.xml",
+          "notes": "android:debuggable=não declarado; padrão false"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/me.zhanghai.android.files_40/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['me.zhanghai.android.files.filelist.FileListActivity', 'me.zhanghai.android.files.filelist.OpenFileActivity', 'me.zhanghai.android.files.ftpserver.FtpServerActivity', 'me.zhanghai.android.files.settings.SettingsActivity', 'me.zhanghai.android.files.viewer.image.ImageViewerActivity', 'me.zhanghai.android.files.viewer.saveas.SaveAsActivity', 'me.zhanghai.android.files.viewer.text.TextEditorActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/me.zhanghai.android.files_40/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['me.zhanghai.android.files.ftpserver.FtpServerTileService']"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/me.zhanghai.android.files_40/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['androidx.profileinstaller.ProfileInstallReceiver']"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/me.zhanghai.android.files_40/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['rikka.shizuku.ShizukuProvider']"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/me.zhanghai.android.files_40/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/me.zhanghai.android.files_40/res/xml/netework_security_config.xml",
+          "notes": "decompiled/fdroid/me.zhanghai.android.files_40/res/xml/netework_security_config.xml contém cleartextTrafficPermitted=true"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/me.zhanghai.android.files_40",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/me.zhanghai.android.files_40",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/me.zhanghai.android.files_40",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        }
+      }
+    },
+    {
+      "sha256": "3f9f260dc3e32a1281cb8803eea6f926eef897579f68a5d35f922523974b84b9",
+      "file_name": "net.gsantner.markor_163.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/net.gsantner.markor_163/AndroidManifest.xml",
+          "notes": "android:debuggable=não declarado; padrão false"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/net.gsantner.markor_163/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['net.gsantner.markor.activity.DocumentActivity', 'net.gsantner.markor.activity.MainActivity', 'net.gsantner.markor.activity.openeditor.OpenEditorQuickNoteActivity', 'net.gsantner.markor.activity.openeditor.OpenEditorTodoActivity', 'net.gsantner.markor.activity.openeditor.OpenShareIntoActivity', 'other.writeily.widget.WrWidgetConfigure', 'net.gsantner.markor.AliasDocumentProcessText']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/net.gsantner.markor_163/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/net.gsantner.markor_163/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['net.gsantner.markor.widget.TodoWidgetProvider', 'other.writeily.widget.WrMarkorWidgetProvider']"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/net.gsantner.markor_163/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/net.gsantner.markor_163/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/net.gsantner.markor_163/AndroidManifest.xml",
+          "notes": "android:usesCleartextTraffic declarado no AndroidManifest.xml"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/net.gsantner.markor_163",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/net.gsantner.markor_163",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/net.gsantner.markor_163",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        }
+      }
+    },
+    {
+      "sha256": "3d8d150d66a7b49788143104a7280c74a8ae0428e815e1234a38aa318c6b45a6",
+      "file_name": "org.fdroid.basic_2000050.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/org.fdroid.basic_2000050/AndroidManifest.xml",
+          "notes": "android:debuggable=não declarado; padrão false"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/org.fdroid.basic_2000050/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['org.fdroid.MainActivity', 'org.fdroid.ui.repositories.UpdateRepoActivity', 'org.fdroid.IconActivity', 'org.fdroid.IconCalculatorActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/org.fdroid.basic_2000050/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['androidx.work.impl.background.systemjob.SystemJobService']"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/org.fdroid.basic_2000050/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['androidx.profileinstaller.ProfileInstallReceiver', 'androidx.work.impl.diagnostics.DiagnosticsReceiver']"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/org.fdroid.basic_2000050/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/org.fdroid.basic_2000050/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/org.fdroid.basic_2000050/res/xml/network_security_config.xml",
+          "notes": "decompiled/fdroid/org.fdroid.basic_2000050/res/xml/network_security_config.xml contém cleartextTrafficPermitted=true"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/org.fdroid.basic_2000050",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/org.fdroid.basic_2000050",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/org.fdroid.basic_2000050",
+          "notes": "Runtime/ProcessBuilder calls are diagnostic logcat/memory commands assembled from constants; no exposed input controls them."
+        }
+      }
+    },
+    {
+      "sha256": "89a783890d8d26caaed18cae017fc348a18ac87c72cca16719597b02eac8cf7c",
+      "file_name": "org.moire.opensudoku_20260920.apk",
+      "group": "apps_reais",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/org.moire.opensudoku_20260920/AndroidManifest.xml",
+          "notes": "android:debuggable=não declarado; padrão false"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/org.moire.opensudoku_20260920/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['org.moire.opensudoku.gui.importing.PuzzleImportActivity', 'org.moire.opensudoku.gui.screen.SudokuScanActivity', 'org.moire.opensudoku.gui.screen.title.TitleScreenActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/org.moire.opensudoku_20260920/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/org.moire.opensudoku_20260920/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['androidx.profileinstaller.ProfileInstallReceiver']"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/org.moire.opensudoku_20260920/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": true,
+          "evidence_source": "decompiled/fdroid/org.moire.opensudoku_20260920/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/org.moire.opensudoku_20260920/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=37"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/org.moire.opensudoku_20260920",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/org.moire.opensudoku_20260920",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/fdroid/org.moire.opensudoku_20260920",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        }
+      }
+    },
+    {
+      "sha256": "d6792d6634a033f048f935f1269179d3c27b859c4c34b1e9e5b008a88375efd9",
+      "file_name": "allsafe.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/allsafe/AndroidManifest.xml",
+          "notes": "android:debuggable=true"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/allsafe/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['infosecadventures.allsafe.MainActivity', 'infosecadventures.allsafe.ProxyActivity', 'infosecadventures.allsafe.challenges.DeepLinkTask']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/allsafe/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['infosecadventures.allsafe.challenges.RecorderService']"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/allsafe/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['androidx.profileinstaller.ProfileInstallReceiver', 'infosecadventures.allsafe.challenges.NoteReceiver']"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/allsafe/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['infosecadventures.allsafe.challenges.DataProvider']"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/allsafe/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/allsafe/res/xml/network_security_config.xml",
+          "notes": "decompiled/vulnerable/allsafe/res/xml/network_security_config.xml contém cleartextTrafficPermitted=true"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/allsafe/smali_classes4/infosecadventures/allsafe/challenges/DataProvider.smali",
+          "notes": "Exported DataProvider forwards caller-controlled selection/selectionArgs to SQLite query, update and delete operations."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/allsafe",
+          "notes": "The vulnerable WebView fragment consumes local interface input only; no externally invocable Android source-to-sink flow was found."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/allsafe",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        }
+      }
+    },
+    {
+      "sha256": "3e6f6b538b82874dd94c0d8cdadd69ba54d49b59d2c7eb055073892e8a4fc0e0",
+      "file_name": "AndroGoat.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/AndroGoat/AndroidManifest.xml",
+          "notes": "android:debuggable=true"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/AndroGoat/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['owasp.sat.agoat.AccessControl1ViewActivity', 'owasp.sat.agoat.SplashActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/AndroGoat/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['owasp.sat.agoat.DownloadInvoiceService']"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/AndroGoat/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['androidx.profileinstaller.ProfileInstallReceiver', 'owasp.sat.agoat.ShowDataReceiver']"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/AndroGoat/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['owasp.sat.agoat.ContentProviderActivity']"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/AndroGoat/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/AndroGoat/res/xml/network_security_config.xml",
+          "notes": "decompiled/vulnerable/AndroGoat/res/xml/network_security_config.xml contém cleartextTrafficPermitted=true"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/AndroGoat/smali_classes2/owasp/sat/agoat/ContentProviderActivity.smali",
+          "notes": "Exported ContentProvider forwards caller-controlled projection, selection, selectionArgs and sortOrder to SQLiteQueryBuilder/SQLiteDatabase."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/AndroGoat",
+          "notes": "A WebView sink exists, but its value comes only from an EditText in a non-exported activity; no exposed Android input-to-sink flow was found."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/AndroGoat",
+          "notes": "Runtime.exec exists in the command-injection exercise, but the value comes only from an EditText in a non-exported activity; it is outside the exposed-boundary definition."
+        }
+      }
+    },
+    {
+      "sha256": "fbd9ab802d418cc3fbfd89b3cea1c9c4d3cbe20f5f19db79979cbc73ad845516",
+      "file_name": "DVACv1.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/DVACv1/AndroidManifest.xml",
+          "notes": "android:debuggable=true"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/DVACv1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['com.zin.dvac.ChangePasswordActivity', 'com.zin.dvac.LoginActivity', 'com.zin.dvac.PasswordManagerActivity', 'com.zin.dvac.SecretFileActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/DVACv1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['com.zin.dvac.PasswordExportService', 'com.zin.dvac.PasswordSocketService']"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/DVACv1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['androidx.profileinstaller.ProfileInstallReceiver', 'com.zin.dvac.ChangePasswordReceiver', 'com.zin.dvac.ShutDownReceiver']"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/DVACv1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['com.zin.dvac.PasswordProvider']"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/DVACv1/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/DVACv1/res/xml/network_security_config.xml",
+          "notes": "decompiled/vulnerable/DVACv1/res/xml/network_security_config.xml contém cleartextTrafficPermitted=true"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/DVACv1/smali_classes3/com/zin/dvac/PasswordProvider.smali",
+          "notes": "Exported PasswordProvider forwards caller-controlled query arguments to SQLiteDatabase.query without an access-control boundary."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/DVACv1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/DVACv1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        }
+      }
+    },
+    {
+      "sha256": "76c308fac6a655a3534771777780e004feb1d91be032857768c891b2baf40ba6",
+      "file_name": "dvba_v1.1.0.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/dvba_v1.1.0/AndroidManifest.xml",
+          "notes": "android:debuggable=não declarado; padrão false"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/dvba_v1.1.0/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['androidx.biometric.DeviceCredentialHandlerActivity', 'com.app.damnvulnerablebank.SendMoney', 'com.app.damnvulnerablebank.ViewBalance', 'com.google.firebase.auth.internal.FederatedSignInActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/dvba_v1.1.0/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/dvba_v1.1.0/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/dvba_v1.1.0/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/dvba_v1.1.0/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/dvba_v1.1.0/res/xml/network_security_config.xml",
+          "notes": "decompiled/vulnerable/dvba_v1.1.0/res/xml/network_security_config.xml contém cleartextTrafficPermitted=true"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/dvba_v1.1.0",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/dvba_v1.1.0/smali/com/app/damnvulnerablebank/CurrencyRates.smali",
+          "notes": "Browsable CurrencyRates reads the external URI query parameter 'url' and passes it to WebView.loadUrl."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/dvba_v1.1.0",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        }
+      }
+    },
+    {
+      "sha256": "b6b8d2dbd7a428b7754e6e537ba5790c35a73253533454e0768dbf1520a7ed15",
+      "file_name": "InjuredAndroid-1.0.12-release.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/InjuredAndroid-1.0.12-release/AndroidManifest.xml",
+          "notes": "android:debuggable=não declarado; padrão false"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InjuredAndroid-1.0.12-release/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['b3nac.injuredandroid.ExportedProtectedIntent', 'b3nac.injuredandroid.FlagEighteenActivity', 'b3nac.injuredandroid.QXV0aA', 'b3nac.injuredandroid.TestBroadcastReceiver', 'b3nac.injuredandroid.b25lActivity', 'com.google.firebase.auth.internal.FederatedSignInActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/InjuredAndroid-1.0.12-release/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InjuredAndroid-1.0.12-release/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['b3nac.injuredandroid.FlagFiveReceiver']"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/InjuredAndroid-1.0.12-release/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InjuredAndroid-1.0.12-release/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InjuredAndroid-1.0.12-release/res/xml/network_security_config.xml",
+          "notes": "decompiled/vulnerable/InjuredAndroid-1.0.12-release/res/xml/network_security_config.xml contém cleartextTrafficPermitted=true"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/InjuredAndroid-1.0.12-release",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InjuredAndroid-1.0.12-release/smali/b3nac/injuredandroid/TestBroadcastReceiver$b.smali",
+          "notes": "A dynamically registered receiver reads the externally supplied Bundle key 'url' and passes it directly to WebView.loadUrl."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InjuredAndroid-1.0.12-release/smali/b3nac/injuredandroid/RCEActivity.smali",
+          "notes": "Browsable RCEActivity reads 'binary' and 'param' from the external URI, concatenates them and invokes Runtime.exec."
+        }
+      }
+    },
+    {
+      "sha256": "21d91e09112a0195ef52958bdad2b94d0c93c2c8b4d63abff2d64ec7d9590e71",
+      "file_name": "InsecureBankv2.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/InsecureBankv2/AndroidManifest.xml",
+          "notes": "android:debuggable=não declarado; padrão false"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InsecureBankv2/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['com.android.insecurebankv2.ChangePassword', 'com.android.insecurebankv2.DoTransfer', 'com.android.insecurebankv2.PostLogin', 'com.android.insecurebankv2.ViewStatement']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/InsecureBankv2/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InsecureBankv2/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['com.android.insecurebankv2.MyBroadCastReceiver']"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InsecureBankv2/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['com.android.insecurebankv2.TrackUserContentProvider']"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/InsecureBankv2/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InsecureBankv2/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=22"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InsecureBankv2/smali/com/android/insecurebankv2/TrackUserContentProvider.smali",
+          "notes": "Exported provider forwards caller-controlled selection and selectionArgs to SQLite delete, query and update operations."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InsecureBankv2/smali/com/android/insecurebankv2/ViewStatement.smali",
+          "notes": "Exported ViewStatement consumes external Intent data used to construct the value loaded by WebView."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/InsecureBankv2",
+          "notes": "Runtime.exec calls use fixed/root-detection commands; no external value controls the command or its arguments."
+        }
+      }
+    },
+    {
+      "sha256": "a83298ae4a37fcab8101e8b41e513dd2199af71a94ea537d556a318e07d4d1bd",
+      "file_name": "InsecureShop.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InsecureShop/AndroidManifest.xml",
+          "notes": "android:debuggable=true"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InsecureShop/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['com.insecureshop.AboutUsActivity', 'com.insecureshop.ResultActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InsecureShop/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['net.gotev.uploadservice.UploadService']"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/InsecureShop/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InsecureShop/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['com.insecureshop.contentProvider.InsecureShopProvider']"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InsecureShop/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InsecureShop/AndroidManifest.xml",
+          "notes": "android:usesCleartextTraffic declarado no AndroidManifest.xml"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/InsecureShop",
+          "notes": "The exported InsecureShopProvider returns a MatrixCursor and does not execute caller-controlled SQL."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/InsecureShop/smali/com/insecureshop/WebViewActivity.smali",
+          "notes": "Browsable WebViewActivity reads the external deep-link query parameter 'url' and passes it to WebView.loadUrl."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/InsecureShop",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        }
+      }
+    },
+    {
+      "sha256": "fce864e59f05eb64e3d668783b757d66d4fe5022c8811a32af0b33e7d2f3cde5",
+      "file_name": "MSTG-Android-Java.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Java/AndroidManifest.xml",
+          "notes": "android:debuggable=não declarado; padrão false"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Java/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Java/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Java/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Java/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Java/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Java/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=28"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Java",
+          "notes": "SQL-injection examples exist, but the activity is interface-only and the provider is not exported for targetSdkVersion 28; no exposed-boundary flow was found."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Java",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Java",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        }
+      }
+    },
+    {
+      "sha256": "86c059775aa09e4794defd40f81e69751a81019b1b1f285b30b8f7c5bb5e8b68",
+      "file_name": "MSTG-Android-Kotlin.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Kotlin/AndroidManifest.xml",
+          "notes": "android:debuggable=true"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Kotlin/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Kotlin/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Kotlin/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Kotlin/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Kotlin/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Kotlin/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=26"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Kotlin",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Kotlin",
+          "notes": "WebView examples exist, but no externally exposed component supplies the loaded URL."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/MSTG-Android-Kotlin",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        }
+      }
+    },
+    {
+      "sha256": "31878e33c526f9747c9b7ff38954bfcb2acc2a947ce7103589438e034637a6b7",
+      "file_name": "sieve.apk",
+      "group": "apps_vulneraveis",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/sieve/AndroidManifest.xml",
+          "notes": "android:debuggable=true"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/sieve/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['.FileSelectActivity', '.PWList']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/sieve/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['.AuthService', '.CryptoService']"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/sieve/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/sieve/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['.DBContentProvider', '.FileBackupProvider']"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/sieve/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/sieve/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=17"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": true,
+          "evidence_source": "decompiled/vulnerable/sieve/smali/com/mwr/example/sieve/DBContentProvider.smali",
+          "notes": "Exported DBContentProvider forwards caller-controlled selection/selectionArgs to SQLite operations without a protecting permission."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/sieve",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/vulnerable/sieve",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review."
+        }
+      }
+    },
+    {
+      "sha256": "2b226f745d8174271c1e8c7d93ea29fc66f311b787286990ea8a7f1ceaf1bdc0",
+      "file_name": "ActivityCommunication2.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication2/AndroidManifest.xml",
+          "notes": "android:debuggable=true"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication2/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['edu.mit.icc_action_string_operations.InFlowActivity', 'edu.mit.icc_action_string_operations.IsolateActivity', 'edu.mit.icc_action_string_operations.OutFlowActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication2/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication2/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication2/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication2/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication2/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=19"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication2",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication2",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication2",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        }
+      }
+    },
+    {
+      "sha256": "315b5a9bec75394d9350dd8f05a26750b3363e50bf8c16b0bcbc0f752d39155c",
+      "file_name": "ActivityCommunication5.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication5/AndroidManifest.xml",
+          "notes": "android:debuggable=true"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication5/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['edu.mit.icc_intent_component_name.InFlowActivity', 'edu.mit.icc_intent_component_name.IsolateActivity', 'edu.mit.icc_intent_component_name.OutFlowActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication5/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication5/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication5/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication5/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication5/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=19"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication5",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication5",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ActivityCommunication5",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        }
+      }
+    },
+    {
+      "sha256": "6e2c6bacad33aa2254a0728bdc540a15025a732f4255450c4e333b34626deafc",
+      "file_name": "ArrayAccess1.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/ArrayAccess1/AndroidManifest.xml",
+          "notes": "android:debuggable=true"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/ArrayAccess1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['de.ecspride.ArrayAccess1']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ArrayAccess1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ArrayAccess1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ArrayAccess1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ArrayAccess1/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/ArrayAccess1/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=17"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ArrayAccess1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ArrayAccess1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ArrayAccess1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        }
+      }
+    },
+    {
+      "sha256": "70ba8c61b07bb376f37a6555b1615f2a5a370f8eae9ac01cae14340773b9bfc9",
+      "file_name": "ArrayAccess3.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/ArrayAccess3/AndroidManifest.xml",
+          "notes": "android:debuggable=true"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ArrayAccess3/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ArrayAccess3/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ArrayAccess3/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ArrayAccess3/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ArrayAccess3/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/ArrayAccess3/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=17"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ArrayAccess3",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ArrayAccess3",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ArrayAccess3",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        }
+      }
+    },
+    {
+      "sha256": "3c31c21ff15a3b1eec0c19f4f5676589002f3af2c3023821a98f84b3ceb8852e",
+      "file_name": "BroadcastTaintAndLeak1.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/BroadcastTaintAndLeak1/AndroidManifest.xml",
+          "notes": "android:debuggable=true"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/BroadcastTaintAndLeak1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/BroadcastTaintAndLeak1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/BroadcastTaintAndLeak1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/BroadcastTaintAndLeak1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/BroadcastTaintAndLeak1/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/BroadcastTaintAndLeak1/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=15"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/BroadcastTaintAndLeak1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/BroadcastTaintAndLeak1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/BroadcastTaintAndLeak1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        }
+      }
+    },
+    {
+      "sha256": "30707cf3cf5d61d33071413a18921ca6459358413111dffa8949daf80ac5ac77",
+      "file_name": "ComponentNotInManifest1.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/ComponentNotInManifest1/AndroidManifest.xml",
+          "notes": "android:debuggable=true"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/ComponentNotInManifest1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['edu.mit.icc_component_not_in_manifest.IsolateActivity', 'edu.mit.icc_component_not_in_manifest.OutFlowActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ComponentNotInManifest1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ComponentNotInManifest1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ComponentNotInManifest1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ComponentNotInManifest1/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/ComponentNotInManifest1/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=19"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ComponentNotInManifest1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ComponentNotInManifest1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ComponentNotInManifest1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        }
+      }
+    },
+    {
+      "sha256": "6439cb5617499ffc493fbbafe85826f9f89dddbcfbc28dd538b9d227bec4aacc",
+      "file_name": "FieldSensitivity1.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity1/AndroidManifest.xml",
+          "notes": "android:debuggable=true"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['de.ecspride.FieldSensitivity1']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity1/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity1/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=17"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        }
+      }
+    },
+    {
+      "sha256": "ab066ca777d1e9246a733680e94195850710401a1f5c0f6d1a5b78c31f7b3564",
+      "file_name": "FieldSensitivity3.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity3/AndroidManifest.xml",
+          "notes": "android:debuggable=true"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity3/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['de.ecspride.FieldSensitivity3']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity3/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity3/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity3/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity3/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity3/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=17"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity3",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity3",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/FieldSensitivity3",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        }
+      }
+    },
+    {
+      "sha256": "2a0b5f0f854aa81e533e825cf63ebc4bc37e3b0e55d9df2db3e914f0aecb5cf9",
+      "file_name": "ServiceCommunication1.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/ServiceCommunication1/AndroidManifest.xml",
+          "notes": "android:debuggable=true"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/ServiceCommunication1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['edu.mit.icc_service_messages.ActivityMessenger']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ServiceCommunication1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ServiceCommunication1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ServiceCommunication1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ServiceCommunication1/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/ServiceCommunication1/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=1"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ServiceCommunication1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ServiceCommunication1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/ServiceCommunication1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        }
+      }
+    },
+    {
+      "sha256": "58acc608ead125dd3285b4f172db50f497040a171397e296c34f161bd1fec4e7",
+      "file_name": "Unregister1.apk",
+      "group": "droidbench",
+      "categories": {
+        "APP_DEBUGGABLE": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/Unregister1/AndroidManifest.xml",
+          "notes": "android:debuggable=true"
+        },
+        "EXPORTED_ACTIVITY": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/Unregister1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: ['de.ecspride.MainActivity']"
+        },
+        "EXPORTED_SERVICE": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/Unregister1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_RECEIVER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/Unregister1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "EXPORTED_PROVIDER": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/Unregister1/AndroidManifest.xml",
+          "notes": "android:exported=true explícito: []"
+        },
+        "BROWSABLE_DEEP_LINK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/Unregister1/AndroidManifest.xml",
+          "notes": "presença de categoria android.intent.category.BROWSABLE em intent-filter"
+        },
+        "CLEARTEXT_TRAFFIC": {
+          "expected": true,
+          "evidence_source": "decompiled/droidbench/Unregister1/AndroidManifest.xml",
+          "notes": "padrão da plataforma Android para targetSdkVersion=17"
+        },
+        "SQL_INJECTION_RISK": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/Unregister1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "WEBVIEW_UNTRUSTED_URL": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/Unregister1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        },
+        "COMMAND_EXECUTION": {
+          "expected": false,
+          "evidence_source": "decompiled/droidbench/Unregister1",
+          "notes": "No qualifying exposed Android input-to-sink flow was found in the app-owned Smali review. The official DroidBench case targets another source/sink or control-flow property."
+        }
+      }
+    }
+  ],
+  "review_metadata": {
+    "status": "complete",
+    "review_date": "2026-10-11",
+    "reviewed_apps": 30,
+    "reviewed_labels": 300,
+    "null_labels": 0,
+    "apktool_version": "3.0.2",
+    "identity_rule": "exact SHA-256 match",
+    "manifest_rule": "decoded manifest and referenced network-security XML; exported categories mean explicit android:exported=true, matching comparison catalog v1.1",
+    "code_scope": "externally invocable Android inputs (Intent, URI, Bundle, BroadcastReceiver or ContentProvider parameters) reaching the critical sink",
+    "interface_only_policy": "interface-only flows are recorded as false because the SMALIRIS study scope is exposed Android boundaries",
+    "positive_code_rule": "a positive requires a manually confirmed source-to-critical-argument path; sink presence alone is insufficient",
+    "negative_code_rule": "a negative requires no qualifying flow after app-owned Smali sink inventory and path inspection"
+  },
+  "category_definitions": {
+    "APP_DEBUGGABLE": "Application explicitly or effectively runs with android:debuggable=true.",
+    "EXPORTED_ACTIVITY": "At least one activity/activity-alias explicitly declares android:exported=true.",
+    "EXPORTED_SERVICE": "At least one service explicitly declares android:exported=true.",
+    "EXPORTED_RECEIVER": "At least one receiver explicitly declares android:exported=true.",
+    "EXPORTED_PROVIDER": "At least one provider explicitly declares android:exported=true.",
+    "BROWSABLE_DEEP_LINK": "At least one intent filter includes android.intent.category.BROWSABLE.",
+    "CLEARTEXT_TRAFFIC": "Cleartext is allowed globally or by network security configuration/platform default for the APK target SDK.",
+    "SQL_INJECTION_RISK": "An exposed Android input controls an SQL-critical argument without a sufficient boundary/parameterization that removes structural control.",
+    "WEBVIEW_UNTRUSTED_URL": "An exposed Android input controls the URL passed to WebView.loadUrl.",
+    "COMMAND_EXECUTION": "An exposed Android input controls the command or arguments passed to Runtime.exec/ProcessBuilder."
+  },
+  "source_references": [
+    {
+      "scope": "DroidBench",
+      "url": "https://github.com/secure-software-engineering/DroidBench",
+      "use": "official benchmark source corresponding to the ten exact-hash APKs"
+    },
+    {
+      "scope": "open-source real apps",
+      "url": "https://f-droid.org/repo/",
+      "use": "versioned APK artifacts whose SHA-256 values match the corpus"
+    },
+    {
+      "scope": "purposefully vulnerable apps",
+      "url": "official GitHub release assets for each project",
+      "use": "versioned release APK artifacts whose SHA-256 values match the corpus"
+    }
+  ],
+  "label_summary": {
+    "total": 300,
+    "positive": 125,
+    "negative": 175,
+    "by_category": {
+      "APP_DEBUGGABLE": {
+        "positive": 16,
+        "negative": 14
+      },
+      "EXPORTED_ACTIVITY": {
+        "positive": 27,
+        "negative": 3
+      },
+      "EXPORTED_SERVICE": {
+        "positive": 12,
+        "negative": 18
+      },
+      "EXPORTED_RECEIVER": {
+        "positive": 15,
+        "negative": 15
+      },
+      "EXPORTED_PROVIDER": {
+        "positive": 8,
+        "negative": 22
+      },
+      "BROWSABLE_DEEP_LINK": {
+        "positive": 11,
+        "negative": 19
+      },
+      "CLEARTEXT_TRAFFIC": {
+        "positive": 25,
+        "negative": 5
+      },
+      "SQL_INJECTION_RISK": {
+        "positive": 5,
+        "negative": 25
+      },
+      "WEBVIEW_UNTRUSTED_URL": {
+        "positive": 5,
+        "negative": 25
+      },
+      "COMMAND_EXECUTION": {
+        "positive": 1,
+        "negative": 29
+      }
+    }
+  }
+}

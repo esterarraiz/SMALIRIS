@@ -1,0 +1,58 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# ==============================
+# Configurações locais
+# ==============================
+.env
+.env.*
+!.env.example
+config.toml
+*.local.toml
+
+# ==============================
+# APKs e corpus
+# ==============================
+*.apk
+*.apks
+*.aab
+*.dex
+
+corpus/apps_reais/
+corpus/apps_vulneraveis/
+corpus/droidbench/
+
+# ==============================
+# Resultados e arquivos gerados
+# ==============================
+logs/
+output/
+resultados_mobsf/
+
+# ==============================
+# Arquivos temporários
+# ==============================
+*.log
+*.tmp
+*.bak
+*.cache
+
+# ==============================
+# Sistema operacional e IDE
+# ==============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

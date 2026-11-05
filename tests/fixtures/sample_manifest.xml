@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="owasp.sat.agoat">
+
+    <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="30" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application android:enabled="true">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AccessControl1ViewActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="androgoat" android:host="vulnapp" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".DownloadInvoiceService"
+            android:exported="true" />
+
+        <receiver android:name=".ShowDataReceiver">
+            <intent-filter>
+                <action android:name="owasp.sat.agoat.SHOW_DATA" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name=".VulnerableProvider"
+            android:authorities="owasp.sat.agoat.provider"
+            android:exported="true" />
+    </application>
+</manifest>

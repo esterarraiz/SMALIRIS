@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.1",
+  "catalog_version": "1.1.0",
+  "description": "Categorias normalizadas para comparação experimental entre SMALIRIS e MobSF.",
+  "mobsf_severity_mapping": {
+    "high": "high",
+    "warning": "medium",
+    "info": "info",
+    "hotspot": "low"
+  },
+  "categories": [
+    {
+      "id": "APP_DEBUGGABLE",
+      "title": "Aplicação debugável",
+      "scope": "manifest",
+      "mode": "boolean",
+      "fact_key": "debuggable",
+      "smaliris_supported": true,
+      "mobsf_supported": true,
+      "comparable": true,
+      "smaliris_patterns": ["^APP-DEBUG-001$", "depura[cç][aã]o habilitada"],
+      "mobsf_patterns": ["application.{0,40}debuggable", "android:debuggable\\s*=\\s*true"]
+    },
+    {
+      "id": "EXPORTED_ACTIVITY",
+      "title": "Activities explicitamente exportadas",
+      "scope": "manifest",
+      "mode": "component_set",
+      "definition": "android:exported=true explícito; nomes normalizados pelo pacote",
+      "fact_key": "exported_activity_components",
+      "count_key": "exported_activity_count",
+      "smaliris_supported": true,
+      "mobsf_supported": true,
+      "comparable": true,
+      "smaliris_patterns": [],
+      "mobsf_patterns": []
+    },
+    {
+      "id": "EXPORTED_SERVICE",
+      "title": "Services explicitamente exportados",
+      "scope": "manifest",
+      "mode": "component_set",
+      "definition": "android:exported=true explícito; nomes normalizados pelo pacote",
+      "fact_key": "exported_service_components",
+      "count_key": "exported_service_count",
+      "smaliris_supported": true,
+      "mobsf_supported": true,
+      "comparable": true,
+      "smaliris_patterns": [],
+      "mobsf_patterns": []
+    },
+    {
+      "id": "EXPORTED_RECEIVER",
+      "title": "Receivers explicitamente exportados",
+      "scope": "manifest",
+      "mode": "component_set",
+      "definition": "android:exported=true explícito; nomes normalizados pelo pacote",
+      "fact_key": "exported_receiver_components",
+      "count_key": "exported_receiver_count",
+      "smaliris_supported": true,
+      "mobsf_supported": true,
+      "comparable": true,
+      "smaliris_patterns": [],
+      "mobsf_patterns": []
+    },
+    {
+      "id": "EXPORTED_PROVIDER",
+      "title": "Providers explicitamente exportados",
+      "scope": "manifest",
+      "mode": "component_set",
+      "definition": "android:exported=true explícito; nomes normalizados pelo pacote",
+      "fact_key": "exported_provider_components",
+      "count_key": "exported_provider_count",
+      "smaliris_supported": true,
+      "mobsf_supported": true,
+      "comparable": true,
+      "smaliris_patterns": [],
+      "mobsf_patterns": []
+    },
+    {
+      "id": "BROWSABLE_DEEP_LINK",
+      "title": "Deep link navegável",
+      "scope": "manifest",
+      "mode": "boolean",
+      "fact_key": "browsable_deep_link_present",
+      "smaliris_supported": true,
+      "mobsf_supported": true,
+      "comparable": true,
+      "smaliris_patterns": ["^DEEPLINK-", "deep.?link", "BROWSABLE"],
+      "mobsf_patterns": ["browsable activity", "deep.?link", "android.intent.category.BROWSABLE"]
+    },
+    {
+      "id": "CLEARTEXT_TRAFFIC",
+      "title": "Tráfego em texto claro permitido",
+      "scope": "manifest",
+      "mode": "boolean",
+      "fact_key": "cleartext_traffic",
+      "smaliris_supported": true,
+      "mobsf_supported": true,
+      "comparable": true,
+      "smaliris_patterns": ["cleartext", "texto claro"],
+      "mobsf_patterns": ["clear.?text traffic", "usesCleartextTraffic", "insecure network traffic"]
+    },
+    {
+      "id": "SQL_INJECTION_RISK",
+      "title": "Risco relacionado a SQL com entrada não confiável",
+      "scope": "code",
+      "mode": "finding_presence",
+      "smaliris_supported": true,
+      "mobsf_supported": true,
+      "comparable": true,
+      "smaliris_patterns": ["SQLiteDatabase", "SQL.*external-tainted", "RISK-FLOW.*SQL"],
+      "mobsf_patterns": ["SQL Injection", "raw SQL query", "SQLiteDatabase.*execSQL"]
+    },
+    {
+      "id": "WEBVIEW_UNTRUSTED_URL",
+      "title": "URL não confiável carregada em WebView",
+      "scope": "code",
+      "mode": "finding_presence",
+      "smaliris_supported": true,
+      "mobsf_supported": true,
+      "comparable": true,
+      "smaliris_patterns": ["WebView\\.loadUrl", "RISK-FLOW.*WebView"],
+      "mobsf_patterns": ["WebView.*loadUrl", "untrusted.*WebView", "WebView.*untrusted"]
+    },
+    {
+      "id": "COMMAND_EXECUTION",
+      "title": "Execução de comando potencialmente controlável",
+      "scope": "code",
+      "mode": "finding_presence",
+      "smaliris_supported": true,
+      "mobsf_supported": true,
+      "comparable": true,
+      "smaliris_patterns": ["Runtime\\.exec", "ProcessBuilder", "RISK-FLOW.*exec"],
+      "mobsf_patterns": ["Runtime\\.exec", "ProcessBuilder", "OS command", "command execution"]
+    },
+    {
+      "id": "EXTERNAL_TO_SENSITIVE_FLOW",
+      "title": "Fluxo externo confirmado até operação sensível",
+      "scope": "data-flow",
+      "mode": "finding",
+      "smaliris_supported": true,
+      "mobsf_supported": false,
+      "comparable": false,
+      "smaliris_patterns": ["^RISK-FLOW-", "external-tainted", "fluxo.*extern"] ,
+      "mobsf_patterns": []
+    },
+    {
+      "id": "CONTROLLABLE_IPC",
+      "title": "Transição IPC com seletor controlável",
+      "scope": "data-flow",
+      "mode": "finding",
+      "smaliris_supported": true,
+      "mobsf_supported": false,
+      "comparable": false,
+      "smaliris_patterns": ["IPC", "sendBroadcast", "startActivity", "startService"],
+      "mobsf_patterns": []
+    },
+    {
+      "id": "TASK_HIJACKING",
+      "title": "Task hijacking ou StrandHogg",
+      "scope": "mobsf-exclusive",
+      "mode": "finding",
+      "smaliris_supported": false,
+      "mobsf_supported": true,
+      "comparable": false,
+      "smaliris_patterns": [],
+      "mobsf_patterns": ["Task Hijacking", "StrandHogg"]
+    },
+    {
+      "id": "WEAK_CRYPTOGRAPHY",
+      "title": "Criptografia potencialmente fraca",
+      "scope": "mobsf-exclusive",
+      "mode": "finding",
+      "smaliris_supported": false,
+      "mobsf_supported": true,
+      "comparable": false,
+      "smaliris_patterns": [],
+      "mobsf_patterns": ["weak crypt", "insecure Random", "hash collision", "MD5", "SHA1"]
+    },
+    {
+      "id": "TRACKERS",
+      "title": "Rastreadores de terceiros",
+      "scope": "mobsf-exclusive",
+      "mode": "finding",
+      "smaliris_supported": false,
+      "mobsf_supported": true,
+      "comparable": false,
+      "smaliris_patterns": [],
+      "mobsf_patterns": ["privacy tracker", "trackers? detected", "contains.*trackers?"]
+    }
+  ]
+}
